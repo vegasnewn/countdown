@@ -1,11 +1,11 @@
 body {
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: sans-serif;
   color: white;
   background-color: darkred;
-  margin-block-start: 10vh;
-  margin-inline-start: 25vw;
+  margin-block-start: 5vh;
+  margin-inline-start: 5vw;
 }
 h1 {
-  line-height: 1.5;
+  line-height: 1.2;
 }
