@@ -9,9 +9,9 @@ const vegasId = document.getElementById('vegas')
 const grandfaId = document.getElementById('grandfa')
 const jionId = document.getElementById('jion')
 
-const halloween = new Date('10/31/2021')
-const grandma1 = new Date('11/09/2021')
-const xmas = new Date('12/25/2021')
+const halloween = new Date('10/31/2022')
+const grandma1 = new Date('10/29/2022')
+const xmas = new Date('12/25/2022')
 const sook = new Date('01/14/2022')
 const grandma2 = new Date('03/08/2022')
 const leon = new Date('03/16/2022')
@@ -37,9 +37,12 @@ halloweenId.innerHTML = `Halloween is ${halloweenDays.toLocaleString('en-US', {
   timeZone: 'Australia/Brisbane',
 })} days left.`
 const grandma1Days = countDown(grandma1)
-grandma1Id.innerHTML = `Grandmother's birthday is ${grandma1Days.toLocaleString('en-US', {
-  timeZone: 'Australia/Brisbane',
-})} days left.`
+grandma1Id.innerHTML = `Grandmother's birthday is ${grandma1Days.toLocaleString(
+  'en-US',
+  {
+    timeZone: 'Australia/Brisbane',
+  }
+)} days left.`
 const xmasDays = countDown(xmas)
 xmasId.innerHTML = `Christmas is ${xmasDays.toLocaleString('en-US', {
   timeZone: 'Australia/Brisbane',
@@ -49,9 +52,12 @@ sookId.innerHTML = `Myo Sook's birthday is ${sookDays.toLocaleString('en-US', {
   timeZone: 'Australia/Brisbane',
 })} days left.`
 const grandma2Days = countDown(grandma2)
-grandma2Id.innerHTML = `Grandmother's birthday is ${grandma2Days.toLocaleString('en-US', {
-  timeZone: 'Australia/Brisbane',
-})} days left.`
+grandma2Id.innerHTML = `Grandmother's birthday is ${grandma2Days.toLocaleString(
+  'en-US',
+  {
+    timeZone: 'Australia/Brisbane',
+  }
+)} days left.`
 const leonDays = countDown(leon)
 leonId.innerHTML = `Leon's birthday is ${leonDays.toLocaleString('en-US', {
   timeZone: 'Australia/Brisbane',
@@ -65,9 +71,12 @@ vegasId.innerHTML = `Vegas' birthday is ${vegasDays.toLocaleString('en-US', {
   timeZone: 'Australia/Brisbane',
 })} days left.`
 const grandfaDays = countDown(grandfa)
-grandfaId.innerHTML = `Grandfather's birthday is ${grandfaDays.toLocaleString('en-US', {
-  timeZone: 'Australia/Brisbane',
-})} days left.`
+grandfaId.innerHTML = `Grandfather's birthday is ${grandfaDays.toLocaleString(
+  'en-US',
+  {
+    timeZone: 'Australia/Brisbane',
+  }
+)} days left.`
 const jionDays = countDown(jion)
 jionId.innerHTML = `Jion's birthday is ${jionDays.toLocaleString('en-US', {
   timeZone: 'Australia/Brisbane',
